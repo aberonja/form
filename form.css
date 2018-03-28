@@ -57,3 +57,11 @@ table.infusion-field-container td.infusion-field-input-container textarea {
   border-radius: 45px;
   padding: 10px 25px;
 }
+
+.infusion-submit button:hover{
+  color: white;
+  background: #0da7a5;
+  border-radius: 25px;
+  border-radius: 45px;
+  padding: 10px 25px;
+}
