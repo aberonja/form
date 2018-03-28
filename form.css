@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,900");
+
+form {
+  font-family: Lato;
+}
+
+form .infusion-field-container {
+  width: 100%;
+}
+
+table.infusion-field-container td.infusion-field-label-container {
+  max-width: 100%;
+}
+
+form label {
+  margin-bottom: 10px;
+  font-family: Lato;
+  font-size: 18px;
+}
+
+form .bodyContainer {
+  width: 100%;
+}
+
+.infusion-field-input {
+  width: 70%;
+  margin-bottom: 20px;
+  max-width: 70%;
+  height: auto;
+  line-height: normal;
+  margin-bottom: 20px;
+  width: 97%;
+  border-radius: 10px;
+  border: solid 1px #d0d2d5;
+  display: block;
+  padding: 9px 14px;
+  font-size: 18px;
+  color: #434a56;
+  outline: none;
+}
+table.infusion-field-container td.infusion-field-input-container textarea {
+  width: 97%;
+  margin-bottom: 20px;
+  max-width: 97%;
+  height: auto;
+  line-height: normal;
+}
+
+.infusion-submit button{
+  border: solid 4px #0da7a5;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  color: #0da7a5;
+  background: none;
+  border-radius: 25px;
+  border-radius: 45px;
+  padding: 10px 25px;
+}
