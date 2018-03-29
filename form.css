@@ -23,7 +23,7 @@ form .bodyContainer {
 
 .infusion-field-input {
   width: 70%;
-  margin-bottom: 20px;
+  margin-bottom: 20px!important;
   max-width: 70%;
   height: auto;
   line-height: normal;
@@ -55,6 +55,7 @@ td.infusion-field-input-container textarea {
   font-size: 18px;
   color: #434a56;
   min-height: 100px;
+  resize: none;
 }
 
 .infusion-submit button {
