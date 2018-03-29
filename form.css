@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,900");
-
 form {
   font-family: Lato;
 }
@@ -38,6 +37,7 @@ form .bodyContainer {
   color: #434a56;
   outline: none;
 }
+
 td.infusion-field-input-container textarea {
   width: 97%;
   max-width: 97%;
@@ -55,7 +55,7 @@ td.infusion-field-input-container textarea {
   color: #434a56;
 }
 
-.infusion-submit button{
+.infusion-submit button {
   border: solid 4px #fb6801;
   font-size: 20px;
   font-weight: 900;
@@ -70,10 +70,37 @@ td.infusion-field-input-container textarea {
   cursor: pointer;
 }
 
-.infusion-submit button:hover{
+.infusion-submit button:hover {
   color: white;
   background: #fb6801;
   border-radius: 25px;
   border-radius: 45px;
   padding: 10px 25px;
+}
+
+.infusion-option input{
+  display: none;
+}
+
+.infusion-option label{
+  padding-left: 40px;
+  position: relative;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: normal;
+  text-align: left;
+  color: #21252b;
+}
+.infusion-option label:before {
+  content: '';
+  display: block;
+  background: white;
+  border: 1px solid #a1a4aa;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  position: absolute;
+  left: 1px;
+  top: 0;
 }
