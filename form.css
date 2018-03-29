@@ -42,13 +42,17 @@ td.infusion-field-input-container textarea {
   width: 97%;
   max-width: 97%;
   margin-bottom: 20px;
-  max-width: 97%;
   height: auto;
   line-height: normal;
   border: solid 1px #d0d2d5;
   outline: none;
   margin-bottom: 20px;
   border-radius: 10px;
+  min-width: 97%;
+  font-family: Lato;
+  padding: 9px 14px;
+  font-size: 18px;
+  color: #434a56;
 }
 
 .infusion-submit button{
