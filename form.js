@@ -2,7 +2,9 @@
 
 var height = document.forms[0].getElementsByTagName('table')[1].offsetHeight;
 
-var wn = window.frames[0]
-wn.postMessage(height, 'http://localhost:8084/');
+console.log(height)
 
-wn.postMessage(height, 'http://localhost:8084/');
+// var wn = window.frames[0]
+// wn.postMessage(height, 'http://localhost:8084/');
+
+// wn.postMessage(height, 'http://localhost:8084/');
