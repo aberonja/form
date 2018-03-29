@@ -1,6 +1,9 @@
 // console.log(document.forms[0].getElementsByName('table')[1].offsetHeight)
 
-var height = document.forms[0].getElementsByClassName('bodyContainer')[0].offsetHeight;
+setTimeout(() => {
+    var height = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight;
+}, 1000);
+
 console.log('test')
 console.log(height)
 
