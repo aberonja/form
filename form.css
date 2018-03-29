@@ -157,3 +157,8 @@ td.infusion-field-input-container textarea {
 .default .infusion-field-input{
   font-size: 18px!important;
 }
+
+.default .infusion-field-label-container{
+  font-family: Lato!important;
+  color: #21252b!important;
+}
