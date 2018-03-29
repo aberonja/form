@@ -1,3 +1,3 @@
-$("document").ready(function (){
-    console.log($("table").height())
-})
+console.log('------------------------------------');
+console.log(document.body.scrollHeight);
+console.log('------------------------------------');
