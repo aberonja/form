@@ -1,3 +1,3 @@
 $("document").ready(function (){
-    console.log($("table").height)
+    console.log($("table").height())
 })
