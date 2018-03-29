@@ -4,6 +4,8 @@ setTimeout(() => {
     var height = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight;
     console.log(height)
 }, 5000);
+var height = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight;
+console.log(height)
 if (document.readyState === 'complete') {
     console.log('test')
   }
