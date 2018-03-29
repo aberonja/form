@@ -18,6 +18,5 @@
 document.addEventListener("DOMContentLoaded", function() {
     var height = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight;
     console.log(height)
-    window.top.height = height;
-    targetWindow.postMessage(height, 'http://localhost:8084');
+    targetWindow.postMessage(height, '*');
   });
