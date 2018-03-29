@@ -115,3 +115,39 @@ td.infusion-field-input-container textarea {
   font-family: 'Glyphicons Halflings';
   color: #0da7a5;
 }
+
+
+.infusion-option input[type='radio']{
+  display: none;
+}
+
+.infusion-option input[type='radio'] ~ label{
+  padding-left: 40px;
+  position: relative;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: normal;
+  text-align: left;
+  color: #21252b;
+  font-family: Lato;
+  font-style: italic;
+}
+.infusion-option input[type='radio'] ~ label:before {
+  content: '';
+  display: block;
+  background: white;
+  border: 1px solid #a1a4aa;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: 1px;
+  top: 0;
+}
+
+.infusion-option input[type='radio']:checked ~ label:before {
+  content: '\e013';
+  font-family: 'Glyphicons Halflings';
+  color: #0da7a5;
+}
