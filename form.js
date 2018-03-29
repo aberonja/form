@@ -2,7 +2,7 @@
 
 setTimeout(() => {
     var height = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight;
-}, 1000);
+}, 5000);
 
 console.log('test')
 console.log(height)
