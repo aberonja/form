@@ -153,3 +153,7 @@ td.infusion-field-input-container textarea {
   font-size: 38px;
   line-height: 0.21;
 }
+
+.default .infusion-field-input{
+  font-size: 18px!important;
+}
