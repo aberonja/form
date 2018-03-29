@@ -147,7 +147,9 @@ td.infusion-field-input-container textarea {
 }
 
 .infusion-option input[type='radio']:checked ~ label:before {
-  content: '\e013';
+  content: '\25cf';
   font-family: 'Glyphicons Halflings';
   color: #0da7a5;
+  font-size: 38px;
+  line-height: 0.21;
 }
