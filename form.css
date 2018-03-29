@@ -23,7 +23,7 @@ form .bodyContainer {
 
 .infusion-field-input {
   width: 70%;
-  margin-bottom: 20px!important;
+  margin-bottom: 20px !important;
   max-width: 70%;
   height: auto;
   line-height: normal;
@@ -42,7 +42,7 @@ form .bodyContainer {
 td.infusion-field-input-container textarea {
   width: 97%;
   max-width: 97%;
-  margin-bottom: 20px!important;
+  margin-bottom: 20px !important;
   height: auto;
   line-height: normal;
   border: solid 1px #d0d2d5;
@@ -81,11 +81,11 @@ td.infusion-field-input-container textarea {
   padding: 10px 25px;
 }
 
-.infusion-option input[type='checkbox']{
+.infusion-option input[type='checkbox'] {
   display: none;
 }
 
-.infusion-option input[type='checkbox'] ~ label{
+.infusion-option input[type='checkbox']~label {
   padding-left: 40px;
   position: relative;
   font-size: 18px;
@@ -97,7 +97,8 @@ td.infusion-field-input-container textarea {
   font-family: Lato;
   font-style: italic;
 }
-.infusion-option input[type='checkbox'] ~ label:before {
+
+.infusion-option input[type='checkbox']~label:before {
   content: '';
   display: block;
   background: white;
@@ -110,18 +111,17 @@ td.infusion-field-input-container textarea {
   top: 0;
 }
 
-.infusion-option input[type='checkbox']:checked ~ label:before {
+.infusion-option input[type='checkbox']:checked~label:before {
   content: '\e013';
   font-family: 'Glyphicons Halflings';
   color: #0da7a5;
 }
 
-
-.infusion-option input[type='radio']{
+.infusion-option input[type='radio'] {
   display: none;
 }
 
-.infusion-option input[type='radio'] ~ label{
+.infusion-option input[type='radio']~label {
   padding-left: 40px;
   position: relative;
   font-size: 18px;
@@ -133,7 +133,8 @@ td.infusion-field-input-container textarea {
   font-family: Lato;
   font-style: italic;
 }
-.infusion-option input[type='radio'] ~ label:before {
+
+.infusion-option input[type='radio']~label:before {
   content: '';
   display: block;
   background: white;
@@ -146,7 +147,7 @@ td.infusion-field-input-container textarea {
   top: 0;
 }
 
-.infusion-option input[type='radio']:checked ~ label:before {
+.infusion-option input[type='radio']:checked~label:before {
   content: '\25cf';
   font-family: 'Glyphicons Halflings';
   color: #0da7a5;
@@ -154,12 +155,19 @@ td.infusion-field-input-container textarea {
   line-height: 0.21;
 }
 
-.default .infusion-field-input{
-  font-size: 18px!important;
+.default .infusion-field-input {
+  font-size: 18px !important;
 }
 
-.default .infusion-field-label-container{
-  font-family: Lato!important;
-  color: #21252b!important;
+.default .infusion-field-label-container {
+  font-family: Lato !important;
+  color: #21252b !important;
+  font-size: 18px;
+}
+
+#webformErrors {
+  text-align: center;
+  font-family: Lato;
+  color: #f12548;
   font-size: 18px;
 }
