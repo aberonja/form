@@ -36,6 +36,7 @@ form .bodyContainer {
   font-size: 18px;
   color: #434a56;
   outline: none;
+  font-family: Lato;
 }
 
 td.infusion-field-input-container textarea {
@@ -53,6 +54,7 @@ td.infusion-field-input-container textarea {
   padding: 9px 14px;
   font-size: 18px;
   color: #434a56;
+  min-height: 100px;
 }
 
 .infusion-submit button {
@@ -78,11 +80,11 @@ td.infusion-field-input-container textarea {
   padding: 10px 25px;
 }
 
-.infusion-option input{
+.infusion-option input[type='checkbox']{
   display: none;
 }
 
-.infusion-option label{
+.infusion-option input[type='checkbox'] ~ label{
   padding-left: 40px;
   position: relative;
   font-size: 18px;
@@ -91,8 +93,10 @@ td.infusion-field-input-container textarea {
   letter-spacing: normal;
   text-align: left;
   color: #21252b;
+  font-family: Lato;
+  font-style: italic;
 }
-.infusion-option label:before {
+.infusion-option input[type='checkbox'] ~ label:before {
   content: '';
   display: block;
   background: white;
@@ -103,4 +107,10 @@ td.infusion-field-input-container textarea {
   position: absolute;
   left: 1px;
   top: 0;
+}
+
+.infusion-option input[type='checkbox']:checked ~ label:before {
+  content: '\e013';
+  font-family: 'Glyphicons Halflings';
+  color: #0da7a5;
 }
