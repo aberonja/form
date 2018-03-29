@@ -14,7 +14,9 @@
 
 // wn.postMessage(height, 'http://localhost:8084/');
 
-document.onload = function(){
+
+document.addEventListener("DOMContentLoaded", function() {
     var height = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight;
     console.log(height)
-};
+    // code...
+  });
