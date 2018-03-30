@@ -166,11 +166,11 @@ td.infusion-field-input-container textarea {
 }
 
 #webformErrors {
-  text-align: center;
   font-family: Lato;
   color: #f12548;
   font-size: 18px;
   padding-left: 20px;
+  text-align: left;
 }
 
 #webformErrors ul{
