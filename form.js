@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
   window.parent.postMessage(test, '*')
-  window.parent.postMessage(height, '*')
+  // window.parent.postMessage(height, '*')
 });
