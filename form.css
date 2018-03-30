@@ -175,3 +175,6 @@ td.infusion-field-input-container textarea {
 #webformErrors ul{
   list-style: none;
 }
+.overflow{
+  overflow: hidden;
+}

@@ -3,5 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var formHeight = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight;
     var height = errorHeght + formHeight;
     window.parent.postMessage(height, '*');
-    console.log('test')
+    document.getElementsByTagName('body')[0].classList.add('overflow');
+    console.log('nrao')
   });
