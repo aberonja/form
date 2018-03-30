@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var formHeight = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight
   var height = errorHeght + formHeight
   document.getElementsByTagName('body')[0].classList.add('overflow')
-  console.log(window.location.href)
   var test = {
     origin: window.location.href,
     message: {
@@ -12,5 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
   window.parent.postMessage(test, '*')
-  console.log(test)
+  window.parent.postMessage(height, '*')
 });
