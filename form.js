@@ -4,4 +4,5 @@ document.addEventListener("DOMContentLoaded", function() {
     var height = errorHeght + formHeight;
     window.parent.postMessage(height, '*');
     document.getElementsByTagName('body')[0].classList.add('overflow');
+    console.log(height)
   });
