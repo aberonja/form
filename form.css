@@ -170,10 +170,12 @@ td.infusion-field-input-container textarea {
   font-family: Lato;
   color: #f12548;
   font-size: 18px;
+  padding-left: 20px;
 }
 
 #webformErrors ul{
   list-style: none;
+  padding-left: 0;
 }
 body{
   overflow: hidden;
