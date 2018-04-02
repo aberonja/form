@@ -20,5 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         },
           "*");
            console.log(test123)
+           console.log("test123")
         // window.parent.postMessage(height, '*')
       });
