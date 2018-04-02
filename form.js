@@ -3,14 +3,14 @@ document.addEventListener("DOMContentLoaded", function () {
   var formHeight = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight
   var height = errorHeght + formHeight
   document.getElementsByTagName('body')[0].classList.add('overflow')
-  var test123 = {
+  var iframeData = {
     origin: window.location.href,
-    message: {
+    data: {
       type: 'HEIGHT',
-      data: height
+      height: height
     }
   }
-  window.parent.postMessage(test123, '*')
+  window.parent.postMessage(iframeData, '*')
   console.log("nrao")
   // window.parent.postMessage(height, '*')
 });
