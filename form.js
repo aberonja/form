@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
   window.parent.postMessage(test123, '*')
-  console.log(test123)
+  console.log("nrao")
   // window.parent.postMessage(height, '*')
 });
