@@ -11,6 +11,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
   window.parent.postMessage(iframeData, '*')
-  console.log("nrao")
-  // window.parent.postMessage(height, '*')
 });
