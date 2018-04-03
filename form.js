@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var height = errorHeght + formHeight
   document.getElementsByClassName("infusion-submit")[0].getElementsByTagName("button")[0].onclick = function(){
     var test = 1;
-    var documentWidth = parent.window.innerWidth;
-    window.parent.postMessage(documentWidth, '*')
+    window.parent.postMessage(test, '*')
   }
   document.getElementsByTagName('body')[0].classList.add('overflow')
   var iframeData = {
@@ -18,7 +17,4 @@ document.addEventListener("DOMContentLoaded", function () {
   window.parent.postMessage(iframeData, '*')
 });
 
-
-console.log('test')
-document.getElementsByClassName('infusion-field-label-container').onclick = function(){
-}
+console.log('testic')
