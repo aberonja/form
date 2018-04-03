@@ -11,5 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
   window.parent.postMessage(iframeData, '*')
-  console.log(iframeData)
 });
+
+document.getElementsByClassName("infusion-submit").onclick = function(){
+  alert('Hello world');
+}
