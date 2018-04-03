@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-console.log('test')
+console.log('testic')
 document.getElementsByClassName('infusion-field-label-container').onclick = function(){
 }
