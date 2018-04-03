@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var formHeight = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight
   var height = errorHeght + formHeight
   document.getElementsByClassName("infusion-submit")[0].getElementsByTagName("button")[0].onclick = function(){
-    alert('Hello world');
+    var test = 1;
+    window.parent.postMessage(test, '*')
   }
   document.getElementsByTagName('body')[0].classList.add('overflow')
   var iframeData = {
