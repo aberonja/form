@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+console.log('test')
 document.getElementsByClassName('infusion-field-label-container').onclick = function(){
-  console.log('test')
 }
