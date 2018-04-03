@@ -10,8 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
       height: height
     }
   }
-  document.getElementsByClassName("infusion-submit")[0].getElementsByTagName("button").onclick = function(){
-    alert('Hello world');
-  }
   window.parent.postMessage(iframeData, '*')
 });
+
+document.getElementsByClassName("infusion-submit")[0].getElementsByTagName("button").onclick = function(){
+  alert('Hello world');
+}
+
+document.getElementsByClassName('infusion-field-label-container').onclick = function(){
+  console.log('test')
+}
