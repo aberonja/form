@@ -8,9 +8,9 @@ body{
   text-align: center;
 }
 
-td{
+/* td{
   vertical-align: middle!important;
-}
+} */
 
 .bodyContainer{
   width: 100%!important;
