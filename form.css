@@ -4,6 +4,14 @@ body{
   user-select: none;
 }
 
+.imageSnippet-alignDiv{
+  text-align: center;
+}
+
+.bodyContainer{
+  width: auto!important;
+}
+
 form {
   font-family: Lato;
 }
