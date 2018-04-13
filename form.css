@@ -8,13 +8,13 @@ body{
   text-align: center;
 }
 
-#mainContent>table>tbody>tr>td{
+/* #mainContent>table>tbody>tr>td{
   vertical-align: middle!important;
 }
 
 #mainContent>table>tbody>tr>td.bodyContainer{
   vertical-align: top!important;
-}
+} */
 
 .bodyContainer{
   width: 100%!important;
