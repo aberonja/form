@@ -79,6 +79,13 @@ td.infusion-field-input-container textarea {
   resize: none;
 }
 
+@media (min-width: 991px){
+  .infusion-field-input {
+    width: 97%;
+    max-width: 97%;
+  }
+}
+
 .infusion-submit button {
   border: solid 4px #fb6801;
   font-size: 20px;
