@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("testici");
+  console.log("test");
   var formHeight = 0;
   if (document.getElementById("webformErrors") != undefined) {
     var errorHeght = document.getElementById("webformErrors").offsetHeight;
