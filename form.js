@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("test");
   var formHeight = 0;
   var messageHeight = 0;
   var errorHeght = 0;
@@ -24,5 +23,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   };
   window.parent.postMessage(iframeData, "*");
-  console.log(iframeData);
 });
