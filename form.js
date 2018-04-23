@@ -1,19 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
-  console.log('testic')
-
-  var errorHeght = document.getElementById('webformErrors').offsetHeight
+document.addEventListener("DOMContentLoaded", function() {
+  console.log("testici");
   var formHeight = 0;
-  if(document.forms[0].getElementsByClassName('webFormBodyContainer')[0] != undefined){
-    formHeight = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight
+  if (document.getElementById("webformErrors") != undefined) {
+    var errorHeght = document.getElementById("webformErrors").offsetHeight;
   }
-  var height = errorHeght + formHeight
-  document.getElementsByTagName('body')[0].classList.add('overflow')
+  if (
+    document.forms[0].getElementsByClassName("webFormBodyContainer")[0] !=
+    undefined
+  ) {
+    formHeight = document.forms[0].getElementsByClassName(
+      "webFormBodyContainer"
+    )[0].offsetHeight;
+  }
+  var height = errorHeght + formHeight;
+  document.getElementsByTagName("body")[0].classList.add("overflow");
   var iframeData = {
     origin: window.location.href,
     data: {
-      type: 'HEIGHT',
+      type: "HEIGHT",
       height: height
     }
-  }
-  window.parent.postMessage(iframeData, '*')
+  };
+  window.parent.postMessage(iframeData, "*");
 });
