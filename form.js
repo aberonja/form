@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log(document.getElementById('webformErrors'))
-  console.log(document.forms[0].getElementsByClassName('webFormBodyContainer')[0])
-  console.log('test')
+  console.log('testic')
 
   var errorHeght = document.getElementById('webformErrors').offsetHeight
+  var formHeight = 0;
   if(document.forms[0].getElementsByClassName('webFormBodyContainer')[0] != undefined){
-    var formHeight = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight
+    formHeight = document.forms[0].getElementsByClassName('webFormBodyContainer')[0].offsetHeight
   }
   var height = errorHeght + formHeight
   document.getElementsByTagName('body')[0].classList.add('overflow')
