@@ -24,4 +24,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   };
   window.parent.postMessage(iframeData, "*");
+  console.log(iframeData);
 });
