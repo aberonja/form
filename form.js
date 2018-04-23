@@ -4,10 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (document.getElementById("webformErrors") != undefined) {
     var errorHeght = document.getElementById("webformErrors").offsetHeight;
   }
-  if (
-    document.forms[0].getElementsByClassName("webFormBodyContainer")[0] !=
-    undefined
-  ) {
+  if (document.forms[0].getElementsByClassName("webFormBodyContainer")) {
     formHeight = document.forms[0].getElementsByClassName(
       "webFormBodyContainer"
     )[0].offsetHeight;
