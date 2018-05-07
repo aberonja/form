@@ -213,15 +213,15 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 200px) {
+@media only screen and (min-width: 768px) {
   div.infusion-submit {
-    text-align: center !important;
+    text-align: none !important;
   }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 768px) and (min-width: 200px) {
   div.infusion-submit {
-    text-align: none !important;
+    text-align: center !important;
   }
 }
 
