@@ -221,7 +221,7 @@ body {
 
 @media (min-width: 767px) {
   div.infusion-submit {
-    text-align: left !important
+    text-align: none !important;
   }
 }
 
