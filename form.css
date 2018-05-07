@@ -215,13 +215,13 @@ body {
 
 @media only screen and (min-width: 768px) {
   div.infusion-submit {
-    text-align: none !important;
+    text-align: left;
   }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 200px) {
   div.infusion-submit {
-    text-align: center !important;
+    text-align: center;
   }
 }
 
