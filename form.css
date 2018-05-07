@@ -213,8 +213,10 @@ body {
   overflow: hidden;
 }
 
-div.infusion-submit {
-  text-align: center !important;
+@media (max-width: 768px) {
+  div.infusion-submit {
+    text-align: center !important;
+  }
 }
 
 @media (min-width: 767px) {
