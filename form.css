@@ -151,13 +151,13 @@ td.infusion-field-input-container textarea {
   }
 
 
-.infusion-submit button:hover {
+/* .infusion-submit button:hover {
   color: white;
   background: #fb6801;
   border-radius: 25px;
   border-radius: 45px;
   padding: 10px 25px;
-}
+} */
 
 .infusion-option input[type="checkbox"] {
   display: none;
