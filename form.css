@@ -99,10 +99,10 @@ td.infusion-field-input-container textarea {
   border-radius: 45px;
   padding: 10px 25px;
   -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
   outline: none;
   cursor: pointer; */
   display: inline-block;
+  transition: 0.4s ease-in-out;
   border: none;
   outline: none;
   position: relative;
