@@ -89,7 +89,7 @@ td.infusion-field-input-container textarea {
 }
 
 .infusion-submit button {
-  border: solid 3px #fb6801;
+  /* border: solid 3px #fb6801;
   font-size: 20px;
   font-weight: 900;
   text-align: center;
@@ -101,8 +101,55 @@ td.infusion-field-input-container textarea {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   outline: none;
-  cursor: pointer;
+  cursor: pointer; */
+  display: inline-block;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 3;
+  border-radius: 33px;
+  padding: 15px 21px;
+  font-size: 21px;
+  background: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  color: #f35c00;
+  background: linear-gradient(to right, #f35c00 0%, #f12548 100%);
 }
+.infusion-submit button:before {
+    content: attr(data-text);
+    min-width: 144px;
+    z-index: -1;
+    border-radius: 27px;
+    color: #f35c00;
+  }
+  .infusion-submit button:after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    z-index: -2;
+    border-radius: 30px;
+    background: #fff;
+  }
+  .infusion-submit button:hover {
+    color: #f35c00;
+    cursor: pointer;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  .infusion-submit button:visited {
+    color: #f35c00;
+  }
+
+  @media (max-width: 993px) {
+    .infusion-submit button{
+      font-size: 20px;
+    }
+  }
+
 
 .infusion-submit button:hover {
   color: white;
