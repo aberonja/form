@@ -24,16 +24,3 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   window.parent.postMessage(iframeData, '*');
 });
-
-var KEYCODE_ESC = 27;
-
-document.getElementById("fname").addEventListener("keyup", myFunction);
-
-function myFunction(e) {
- if (e.keyCode == KEYCODE_ESC) {
-        console.log('------------------------------------');
-        console.log('test');
-        console.log('------------------------------------');
-      }
-    
-}
